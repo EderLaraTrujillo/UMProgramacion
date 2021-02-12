@@ -1,0 +1,29 @@
+// Variables:
+// Variables Numéricas:
+var var_num = 29; // '25' != 25
+var suma = var_num + var_num;
+var verdad = true;
+
+// Concatenar es tomar un valor y agregarle otro  ej: valor1= ed, valor2 = er, concatenado= eder
+console.log(var_num,suma);
+
+// Condiciones:
+if (var_num > suma) { // Esta condición tiene que ser ¡verdadero!
+  console.log('El valor de var_num es '+var_num+' Y el valor de suma es '+ suma+ ' Por ende suma es mayor que var_num');
+} else {
+  console.log('Esto es completamente falso');
+}
+
+// Constantes:
+
+const nombre = 'Eder Lara';
+console.log(nombre);
+
+// Operadores:
+//    v         Y   f   =  f
+if (var_num > 1 && suma < 50) {
+  console.log(var_num,suma);
+}
+else{
+  console.log('No hay logica en la razón');
+}
